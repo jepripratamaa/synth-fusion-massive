@@ -1,6 +1,6 @@
 import { Navbar, Container, Nav, Offcanvas } from 'react-bootstrap'
 
-import '../dist/css/main.css'
+import '../css/main.css'
 import logo from '../assets/logo.png'
 
 const NavbarComponent = () => {
