@@ -25,3 +25,29 @@
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
 }
+
+/* BlogPage */
+
+.blog{
+    padding: 100px;
+}
+
+.blog .blog-box .img-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.blog .blog-box .img-blog img{
+    border-radius: 5px;
+    
+}
+
+.blog-background{
+    background-image: url(../assets/background2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
