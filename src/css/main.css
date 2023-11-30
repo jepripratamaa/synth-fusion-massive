@@ -28,6 +28,8 @@
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
 }
+/* BlogPage */
+
 
 /* blog, testimoni, payment */
 .page-background-2{
@@ -36,6 +38,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 /* BlogPage */
 .blog{
@@ -108,4 +111,47 @@
 .testi .people img{
     width: 60px;
     border-radius: 100%;
+}
+
+/* Footer */
+.footer-bg {
+    background-color: #161616;
+    color:#fcfcfc;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.socmed {
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px 5px 0px;
 }
