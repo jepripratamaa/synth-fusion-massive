@@ -1,4 +1,5 @@
 .nav-style{
+    font-family: 'inter', sans-serif;
     background-color: #161616;
 }
 
@@ -7,6 +8,7 @@
 }
 
 .login-btn {
+    text-decoration: none;
     width: 112px;
     border: none;
     font-weight: bold;
@@ -14,6 +16,7 @@
 }
 
 .sign-btn {
+    text-decoration: none;
     width: 112px;
     border: none;
     font-weight: bold;
@@ -27,28 +30,87 @@
 }
 /* BlogPage */
 
-.blog{
-    padding: 100px;
-}
 
-.blog .blog-box .img-blog{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-}
-
-.blog .blog-box .img-blog img{
-    border-radius: 5px;
-    
-}
-
-.blog-background{
+/* blog, testimoni, payment */
+.page-background-2{
     background-image: url(../assets/background2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+
+/* BlogPage */
+.blog{
+    padding: 100px;
+}
+
+.blog h1{
+    font-family: 'Volkhov', sans-serif;
+}
+
+.blog p{
+    font-family: 'inter', sans-serif;
+}
+
+.blog .blog-pos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog .blog-pos img{
+    margin: 30px;
+}
+/* TestimoniPage */
+
+.testi{
+    padding: 100px;
+}
+
+.testi h1{
+    font-family: 'Volkhov', sans-serif;
+}
+
+.testi p{
+    font-family: 'inter', sans-serif;
+}
+
+.testi .colom-testi{
+    border: 1px solid #ffffff;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.testi .desc{
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'inter', sans-serif;
+}
+
+.testi .people{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    column-gap: 10px;
+}
+
+.testi .people h5{
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+}
+
+.testi .people p{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+}
+
+.testi .people img{
+    width: 60px;
+    border-radius: 100%;
 }
 
 /* Footer */
