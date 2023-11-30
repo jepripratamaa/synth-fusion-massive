@@ -8,6 +8,7 @@
 }
 
 .login-btn {
+    text-decoration: none;
     width: 112px;
     border: none;
     font-weight: bold;
@@ -15,6 +16,7 @@
 }
 
 .sign-btn {
+    text-decoration: none;
     width: 112px;
     border: none;
     font-weight: bold;

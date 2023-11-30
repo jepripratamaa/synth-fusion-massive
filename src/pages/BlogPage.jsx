@@ -1,5 +1,5 @@
+import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Card from 'react-bootstrap/Card'
 
 import { blog } from '../data/index'
 
@@ -25,20 +25,6 @@ function BlogPage() {
                         )
                     })}
                 </div>
-                {/* <div className='img-blog gap-5'>
-                <Card style={{ width: '168px', backgroundColor: 'transparent' }}>
-                    <img src={blog1}/>
-                </Card>
-                <Card style={{ width: '168px', backgroundColor: 'transparent' }}>
-                    <img src={blog2}/>
-                </Card>
-                <Card style={{ width: '168px', backgroundColor: 'transparent' }}>
-                    <img src={blog3}/>
-                </Card>
-                <Card style={{ width: '168px', backgroundColor: 'transparent' }}>
-                    <img src={blog4}/>
-                </Card>
-                </div> */}
             </Row>
         </Container>
         </div>

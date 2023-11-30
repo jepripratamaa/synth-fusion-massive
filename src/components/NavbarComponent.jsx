@@ -35,8 +35,8 @@ const NavbarComponent = () => {
                             <Nav.Link href="/testimoni" className='text-white' >Testimoni</Nav.Link>
                         </Nav>
                         <div className="btn-logsign d-flex justify-content-center align-items-center gap-4 text-center">
-                            <button href="#" className="login-btn text-white px-3 py-1 rounded-3 " >Login</button>
-                            <button href="#" className="sign-btn text-white px-3 py-1 rounded-3 " >Sign Up</button>
+                            <a href="/login" className="login-btn text-white px-3 py-1 rounded-3 " >Login</a>
+                            <a href="/signup" className="sign-btn text-white px-3 py-1 rounded-3 " >Sign Up</a>
                         </div>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>
