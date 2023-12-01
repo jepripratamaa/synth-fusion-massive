@@ -35,7 +35,7 @@ const NavbarComponent = () => {
                             <Nav.Link href="/blog" className='text-white' >Blog</Nav.Link>
                             <Nav.Link href="/testimoni" className='text-white' >Testimoni</Nav.Link>
                         </Nav>
-                        <div className="btn-logsign d-flex justify-content-center align-items-center gap-4 text-center">
+                        <div className=" d-flex justify-content-center align-items-center gap-4 text-center">
                             <a href="/login" className="login-btn text-white px-3 py-1 rounded-3 " >Login</a>
                             <a href="/signup" className="sign-btn text-white px-3 py-1 rounded-3 " >Sign Up</a>
                         </div>
