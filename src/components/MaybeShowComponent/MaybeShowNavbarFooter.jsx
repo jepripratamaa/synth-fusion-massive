@@ -9,7 +9,7 @@ const MaybeShowNavbarFooter = ({children}) => {
 
     useEffect(() => {
         console.log('this is location: ', location)
-        if(location.pathname === '/login' || location.pathname === '/signup' ){
+        if(location.pathname === '/login' || location.pathname === '/signup'){
             setShowNavbarFooter(false)
         } else {
             setShowNavbarFooter(true)

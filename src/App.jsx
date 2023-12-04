@@ -10,6 +10,8 @@ import BlogPage from './pages/BlogPage'
 import TestimoniPage from './pages/TestimoniPage'
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage'
+import CommunityPage from './pages/CommunityPage'
+import PaymentPage from './pages/PaymentPage'
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/course" Component={CoursePage} />
           <Route path="/blog" Component={BlogPage} />
           <Route path="/testimoni" Component={TestimoniPage} />
+          <Route path="/payment" Component={PaymentPage} />
+          <Route path="/communityPage" Component={CommunityPage} />
           <Route path="/login" Component={LoginPage} />
           <Route path="/signup" Component={SignupPage} />
         </Routes>

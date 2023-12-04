@@ -34,7 +34,7 @@ const LoginPage = () => {
               </div>
               <div className="input-field-submit">
                 <button href='/' type="submit" className="submit text-white">
-                  <a href='#'>Login</a>
+                  <a href='/payment'>Login</a>
                 </button>
               </div>
             </div>

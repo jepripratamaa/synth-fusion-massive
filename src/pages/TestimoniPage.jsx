@@ -4,7 +4,7 @@ import { testimoni } from '../data/index'
 
 const TestimoniPage = () => {
     return (
-        <div className='testi w-100 min-vh-100 page-background-2'>
+        <div className='testi w-100 page-background-2'>
         <Container>
             <Row className='mb-5'>
                 <Col>
