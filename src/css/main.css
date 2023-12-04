@@ -435,13 +435,6 @@ a:active {
     font-weight: 700;
 }
 
-.mc-home{
-    text-decoration: none;
-    color: #F5F5F5;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 600;
-}
 
 /* avatarlogo */
 .bar{
@@ -586,16 +579,22 @@ a:active {
 /* bg-page */
 .p-course {
     background-image: url(../assets/background2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
 
 .community-home{
     background-image: url(../assets/background2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
 
 .subs-home{
     background-image: url(../assets/background2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
 
@@ -639,3 +638,4 @@ a:active {
 .payment img{
     width: 150px;
 }
+

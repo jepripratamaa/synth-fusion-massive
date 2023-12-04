@@ -1,5 +1,10 @@
 import React from "react"
 
+import CourseSF from '../assets/CourseSF.png'
+import Course1 from '../assets/Course1.png'
+import Course2 from '../assets/Course2.png'
+import Course3 from '../assets/Course3.png'
+
 import avatar1 from '../assets/avatar1.png'
 import avatar2 from '../assets/avatar2.png'
 import avatar3 from '../assets/avatar3.png'
@@ -29,7 +34,7 @@ const HomePage = () => {
             </div>
 
             {/* Courses */}
-            <div className="p-course">
+            <div className="p-course overflow-hidden">
                 <div className="container py-5">
                     <div className="container text-left">
                         <div className="row">
@@ -38,10 +43,28 @@ const HomePage = () => {
                                 <h3 className="pc2 py-3">FIND ALL POPULAR COURSES AND TUTORIALS</h3>
                             </div>
                             <div className="col-2 my-4">
-                                <a href="#" className="mc-home">More Courses</a>
+                                <a href="#" className="text-white">More Courses</a>
                             </div>
                         </div>
                     </div>
+                    
+                    <div className="row position-relative py-5">
+                        <div className="col d-flex justify-content-center">
+                            <div className="card-fitur">
+                                <img src={CourseSF} alt="" />
+                            </div>
+                            <div className="card-fitur position-relative">
+                                <img src={Course1} alt="" />
+                            </div>
+                            <div className="card-fitur">
+                                <img src={Course2} alt="" />
+                            </div>
+                            <div className="card-fitur">
+                                <img src={Course3} alt="" />
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
