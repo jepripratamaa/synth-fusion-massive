@@ -23,8 +23,8 @@ const FooterComponent = () => {
                                         <div className="">
                                             <h5 className="text-uppercase text-start">About Us</h5>
                                             <div className="text-start">
-                                                <h6><a href="#!">Blog</a></h6>
-                                                <h6><a href="#!">Testimoni</a></h6>
+                                                <h6><a href="/blog">Blog</a></h6>
+                                                <h6><a href="/testimoni">Testimoni</a></h6>
                                             </div>
                                         </div>
                                     </div>

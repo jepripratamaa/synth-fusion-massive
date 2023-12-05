@@ -27,7 +27,7 @@
 
 .head-sidebar{
     background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 }
 
 /* blog, testimoni, payment */
@@ -371,7 +371,7 @@ a:active {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 930px;
+    height: 1020px;
     margin: 0px 10px;
 }
 

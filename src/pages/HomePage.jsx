@@ -38,7 +38,7 @@ const HomePage = () => {
                                 <h3 className="pc2 py-3">FIND ALL POPULAR COURSES AND TUTORIALS</h3>
                             </div>
                             <div className="col-2 my-4">
-                                <a href="#" className="text-white">More Courses</a>
+                                <a href="/course" className="text-white">More Courses</a>
                             </div>
                         </div>
                     </div>

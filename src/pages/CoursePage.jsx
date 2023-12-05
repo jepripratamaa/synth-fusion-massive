@@ -8,7 +8,7 @@ const CoursePage = () => {
             <div>
             <Row className='course-page'>
                 <Col>
-                    <h1 className='text-center fw-bold'>Course</h1>
+                    <h1 className='text-center fw-bold'>Courses</h1>
                     <p className='text-white text-center'>FIND ALL COURSES AND TUTORIALS</p>
                 </Col>
             </Row>
