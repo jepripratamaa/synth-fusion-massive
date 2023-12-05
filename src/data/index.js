@@ -18,6 +18,10 @@ import gopay from '../assets/gopay.png'
 import bank from '../assets/paylogo.png'
 import spay from '../assets/spay.png'
 
+import Course1 from '../assets/Course1.png'
+import Course2 from '../assets/Course2.png'
+import Course3 from '../assets/Course3.png'
+
 export const blog = [
     {
         id: 1,
@@ -133,5 +137,26 @@ export const community = [
       date: "OCTOBER 8 - 22TH 2024",
       title: "PERSONAL BRANDING",
       desc: "Amsterdam Dance Event (ADE) is the most upfront, influential and educational gathering for electronic music and its industry.",
+    },
+  ];
+
+  export const course = [
+    {
+      id: 1,
+      image: Course1,
+      desc: 'CHAPTER 01',
+      title: 'LEARN INSTRUMENTS'
+    },
+    {
+      id: 2,
+      image: Course2,
+      desc: 'CHAPTER 02',
+      title: 'AUDIO RECORDING'
+    },
+    {
+      id: 3,
+      image: Course3,
+      desc: 'CHAPTER 03',
+      title: 'MIXING & MASTERING',
     },
   ];

@@ -1,20 +1,15 @@
 import React from "react"
 
-import CourseSF from '../assets/CourseSF.png'
-import Course1 from '../assets/Course1.png'
-import Course2 from '../assets/Course2.png'
-import Course3 from '../assets/Course3.png'
-
 import avatar1 from '../assets/avatar1.png'
 import avatar2 from '../assets/avatar2.png'
 import avatar3 from '../assets/avatar3.png'
 import avatar4 from '../assets/avatar4.png'
 import avatar5 from '../assets/avatar5.png'
 
-import media from '../assets/media.png'
 import subsimg from '../assets/subsimg.png'
 
 import { community } from "../data"
+import CourseComponent from "../components/CourseComponent"
 
 const HomePage = () => {
     return (
@@ -47,24 +42,7 @@ const HomePage = () => {
                             </div>
                         </div>
                     </div>
-                    
-                    <div className="row position-relative py-5">
-                        <div className="col d-flex justify-content-center">
-                            <div className="card-fitur">
-                                <img src={CourseSF} alt="" />
-                            </div>
-                            <div className="card-fitur position-relative">
-                                <img src={Course1} alt="" />
-                            </div>
-                            <div className="card-fitur">
-                                <img src={Course2} alt="" />
-                            </div>
-                            <div className="card-fitur">
-                                <img src={Course3} alt="" />
-                            </div>
-                        </div>
-                    </div>
-
+                    <CourseComponent/>
                 </div>
             </div>
 
