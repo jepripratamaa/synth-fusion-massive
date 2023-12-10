@@ -1,8 +1,3 @@
-import blog1 from '../assets/blog1.png'
-import blog2 from '../assets/blog2.png'
-import blog3 from '../assets/blog3.png'
-import blog4 from '../assets/blog4.png'
-
 import testiprofile from '../assets/testiprofile.jpg'
 import testiprofile2 from '../assets/testiprofile2.jpg'
 import testiprofile3 from '../assets/testiprofile3.jpg'
@@ -21,25 +16,6 @@ import spay from '../assets/spay.png'
 import Course1 from '../assets/Course1.png'
 import Course2 from '../assets/Course2.png'
 import Course3 from '../assets/Course3.png'
-
-export const blog = [
-    {
-        id: 1,
-        image : blog1,
-    },
-    {
-        id: 2,
-        image : blog2,
-    },
-    {
-        id: 3,
-        image : blog3,
-    },
-    {
-        id: 4,
-        image : blog4,
-    },
-]
 
 export const testimoni = [
     {

@@ -52,16 +52,16 @@
     font-family: 'inter', sans-serif;
 }
 
-.blog .blog-pos{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.blog .blog-card{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    background: rgba(15, 15, 15, 0.592);
+    backdrop-filter: blur(6px);
+    color: #ffffff;
 }
 
-.blog .blog-pos img{
-    margin: 30px;
-}
+
 /* TestimoniPage */
 
 .testi{
@@ -114,7 +114,7 @@
 
 /* Footer */
 .footer-bg {
-    background-color: #161616;
+    background-image: url(/src/assets/bg-footer.png);
     color:#fcfcfc;
     font-family: 'inter', sans-serif;
 }
