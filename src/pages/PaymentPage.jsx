@@ -10,7 +10,7 @@ const PaymentPage = () => {
                 <Col>
                     <h1 className='text-white text-center fw-bold'>Payment Method</h1>
                 </Col>
-                <div className='blog-pos'>
+                <div className='d-flex justify-content-around' style={{marginTop: '50px' }}>
                     {payment.map((payment) => {
                         return(
                             <div>

@@ -545,10 +545,12 @@ a:active {
 /* newsletter */
 .subs{
     position: relative;
+    
 }
 
 .subs img{
     margin-top: 100px;
+    
 }
 
 .subs-inputan{
@@ -654,9 +656,11 @@ a:active {
 
 /* page course */
 
-
+.courses{
+    font-family: 'Volkhov', sans-serif;
+}
 .course-page h1{
-    margin-top: 50px;
+        margin-top: 50px;
         font-family: 'Volkhov', sans-serif;
         color: #EDDC41;
         font-size: 60px;
@@ -670,4 +674,53 @@ a:active {
     font-size: 26.602px;
     font-style: normal;
     font-weight: 700;
+    
+}
+
+.courses .courses-page{
+    background: rgba(15, 15, 15, 0.815);
+    backdrop-filter: blur(1px);
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 12px 2px #eddc4141;
+}
+
+.courses .title{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.courses .title-2{
+    font-family: 'poppins',sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.courses .text-courses{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.courses .text-courses-2{
+    width: 500px;
+    font-family: 'poppins',sans-serif;
+}
+
+.courses .box {
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: rgb(189, 189, 189);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 2px 12px 2px #eddc41c6;
+}
+.courses .box-text {
+    font-size: 22px;
 }
