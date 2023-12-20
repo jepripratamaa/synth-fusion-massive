@@ -59,15 +59,7 @@ export const testimoni = [
 export const payment = [
   {
     id: 1,
-    image: gopay,
-  },
-  {
-    id: 2,
     image: bank,
-  },
-  {
-    id: 3,
-    image: spay,
   },
 ];
 

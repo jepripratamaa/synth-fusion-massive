@@ -15,9 +15,9 @@ const PaymentPage = () => {
                         return(
                             <div>
                                 <Col key={payment.id} className=''>
-                                    <div className='payment'>
-                                        <img src={payment.image} alt="" />
-                                    </div>
+                                    <button className='payment bg-transparent' style={{border: 'none'}}>
+                                        <img src={payment.image} alt="" onclick="hubungi()" />
+                                    </button>
                                 </Col>
                             </div>
                         )
