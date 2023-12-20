@@ -16,7 +16,9 @@ const PaymentPage = () => {
                             <div>
                                 <Col key={payment.id} className=''>
                                     <button className='payment bg-transparent' style={{border: 'none'}}>
-                                        <img src={payment.image} alt="" onclick="hubungi()" />
+                                        <a target="_blank" href="https://wa.me/62895415000950?text=Halo Kak, Saya Mau Ikut Course Di Synth Fusion Academy..">
+                                            <img src={payment.image} alt="" />
+                                        </a>
                                     </button>
                                 </Col>
                             </div>

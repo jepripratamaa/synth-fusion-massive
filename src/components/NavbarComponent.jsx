@@ -32,7 +32,7 @@ const NavbarComponent = () => {
                         <Nav className="nav-menu-style justify-content-center align-item-center flex-grow-1 pe-3 gap-4">
                             <Nav.Link href="/" className='text-white' >Home</Nav.Link>
                             <Nav.Link href="/course" className='text-white' >Course</Nav.Link>
-                            <Nav.Link href="/blog" className='text-white' >Blog</Nav.Link>
+                            <Nav.Link href="/blog" className='text-white' >Articles</Nav.Link>
                             <Nav.Link href="/testimoni" className='text-white' >Testimoni</Nav.Link>
                         </Nav>
                         <div className=" d-flex justify-content-center align-items-center gap-4 text-center">
