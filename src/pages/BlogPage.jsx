@@ -7,13 +7,13 @@ function BlogPage() {
     return (
         <div className='blog w-100 min-vh-100 page-background-2'>
             <Container>
-                <Row className='mb-5'>
+                <Row data-aos="fade-up" className='mb-5'>
                     <Col>
                         <h1 className='text-white text-center fw-bold'>Articles</h1>
                         <p className='text-white text-center'>Articles You Might Like and Interested with</p>
                     </Col>
                 </Row>
-                <Row style={{marginTop: '50px' }}>
+                <Row data-aos="fade-up" data-aos-duration='1000' style={{marginTop: '50px' }}>
                     <Col>
                         <Card className='blog-card'>
                             <Row>
@@ -46,7 +46,7 @@ function BlogPage() {
                     </Col>
                 </Row>
 
-                <Row style={{marginTop: '50px' }}>
+                <Row data-aos="fade-up" data-aos-duration='1000' data-aos-delay="100" style={{marginTop: '50px' }}>
                     <Col>
                         <Card className='blog-card' >
                             <Row>
@@ -80,7 +80,7 @@ function BlogPage() {
                     </Col>
                 </Row>
 
-                <Row style={{marginTop: '50px' }}>
+                <Row data-aos="fade-up" data-aos-duration='1000' data-aos-delay="200" style={{marginTop: '50px' }}>
                     <Col>
                         <Card className='blog-card' >
                             <Row>
@@ -113,7 +113,7 @@ function BlogPage() {
                     </Col>
                 </Row>
 
-                <Row style={{marginTop: '50px' }}>
+                <Row data-aos="fade-up" data-aos-duration='1000' data-aos-delay="300" style={{marginTop: '50px' }}>
                     <Col>
                         <Card className='blog-card' >
                             <Row>

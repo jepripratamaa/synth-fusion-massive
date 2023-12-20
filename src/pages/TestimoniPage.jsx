@@ -6,7 +6,7 @@ const TestimoniPage = () => {
     return (
         <div className='testi w-100 page-background-2'>
         <Container>
-            <Row className='mb-5'>
+            <Row data-aos="fade-up" className='mb-5'>
                 <Col>
                     <h1 className='text-white text-center fw-bold'>Testimoni</h1>
                     <p className='text-white text-center'>Lets see the POV from Our Academy Learners</p>
@@ -15,7 +15,7 @@ const TestimoniPage = () => {
             <Row className='row-cols-lg-3 row-cols-1'>
                 {testimoni.map((testimoni) => {
                     return(
-                        <div >
+                        <div data-aos="fade-up" data-aos-duration='1000' data-aos-delay="100" >
                         <Col key={testimoni.id} className='mb-5 colom-testi'>
                             <i className={testimoni.star1} style={{color: "#ffc85f",}}></i>
                             <i className={testimoni.star2} style={{color: "#ffc85f",}}></i>

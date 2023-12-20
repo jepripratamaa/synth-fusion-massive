@@ -19,25 +19,25 @@ const HomePage = () => {
                 <div className="container h-100">
                 <div className="row h-100">
                     <div className="col-md-6 hero-tagline" >
-                        <h3>IMPROVE YOUR MUSIC CAREER</h3>
-                        <h1>SYNTH FUSION ACADEMY</h1>
-                        <p>Website that provides music learning materials. Starting from mixing and mastering, Soundbanks, Presets and Samples, and much more.</p>
-                        <button className="button-lg-primary">Find Out More</button>
+                        <h3 data-aos="fade-down" data-aos-duration='1000' >IMPROVE YOUR MUSIC CAREER</h3>
+                        <h1 data-aos="fade-left" data-aos-duration='1000' >SYNTH FUSION ACADEMY</h1>
+                        <p data-aos="fade-right" data-aos-duration='1000' >Website that provides music learning materials. Starting from mixing and mastering, Soundbanks, Presets and Samples, and much more.</p>
+                        <button data-aos="fade-up" data-aos-duration='1000'  className="button-lg-primary">Find Out More</button>
                     </div>
                 </div>
                 </div>
             </div>
 
             {/* Courses */}
-            <div className="p-course overflow-hidden">
+            <div  className="p-course overflow-hidden">
                 <div className="container py-5">
                     <div className="container text-left">
                         <div className="row">
-                            <div className="col">
+                            <div data-aos="fade-up" className="col">
                                 <h1 className="pc">Popular Courses</h1>
                                 <h3 className="pc2 py-3">FIND ALL POPULAR COURSES AND TUTORIALS</h3>
                             </div>
-                            <div className="col-2 my-4">
+                            <div data-aos="fade-up" className="col-2 my-4">
                                 <a href="/course" className="text-white">More Courses</a>
                             </div>
                         </div>
@@ -58,14 +58,14 @@ const HomePage = () => {
             {/* community & event */}
             <div className="community-home">
                 <div className="container py-5">
-                    <h1 className="text-left pc">Community & events</h1>
-                        <h3 className="text-left pc2 py-3">FIND YOUR NEW CONNECTION WITH OTHER PRODUCERS AND MUSICIAN</h3>
+                    <h1 data-aos="fade-down" className="text-left pc">Community & events</h1>
+                        <h3 data-aos="fade-down" className="text-left pc2 py-3">FIND YOUR NEW CONNECTION WITH OTHER PRODUCERS AND MUSICIAN</h3>
                     <div className="row row-cols-1 row-cols-md-3 g-5 py-5">  
                         {community.map((community) => {
                             return(
                                 
                                 <div className="col" key={community.id} >
-                                    <div className="card border-0">
+                                    <div data-aos="fade-up" data-aos-duration='1000' data-aos-delay="100" className="card border-0">
                                         <img src={community.image} className="img-card" alt="..."/>
                                         <div className="card-body">
                                             <h5 style={{color: "#BDBDBD"}} className="card-title">{community.date}</h5>
@@ -88,11 +88,11 @@ const HomePage = () => {
             <div id="about">
                 <div className="container h-100">
                     <div className="row h-100 d-flex justify-content-around">
-                        <div className="col-md-6 about-tagline my-auto" >
+                        <div data-aos="fade-up" data-aos-duration='1000' data-aos-delay="300" className="col-md-6 about-tagline my-auto" >
                         <h1>About Us</h1>
                         <p>Synth Fusion academy is a website that provides an interactive learning platform such as video tutorials, articles and webinars on aspects of music production ranging from recording techniques, audio editing to song publishing. We also provide a learning community where users can interact with each other, such as sharing music projects, providing feedback to each other online via discord and websites as well as providing an audiovisual library containing various resources, such as music samples, recordings, and ready-to-use music production projects</p>
                         </div>
-                        <div className="col-md-6 about-element my-auto">
+                        <div data-aos="fade-up" data-aos-duration='1000' data-aos-delay="400" className="col-md-6 about-element my-auto">
                             <p>Easy To Learn</p>
                             <p>Find New Friends</p>
                             <p>Cool Events</p> 

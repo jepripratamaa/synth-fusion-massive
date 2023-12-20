@@ -7,7 +7,7 @@ import { course, courseDesc } from '../data'
 const CoursePage = () => {
     return (
         <div className=' courses page-background-2'>
-            <div>
+            <div data-aos="fade-up">
             <Row className='course-page'>
                 <Col>
                     <h1 className='text-center fw-bold'>Courses</h1>
@@ -17,7 +17,7 @@ const CoursePage = () => {
             </div>
 
             <div className='container'>
-                <Row style={{marginTop: '50px' }}>
+                <Row data-aos="fade-up" data-aos-duration='1000' data-aos-delay="100" style={{marginTop: '50px' }}>
                     <Col>
                         <Card className='courses-page'>
                             <Row>
@@ -52,22 +52,22 @@ const CoursePage = () => {
                     <div className="container">
                     <div className="row">
                         <div className="col-md-3 col-sm-6">
-                        <div className="box">
+                        <div data-aos="fade-up" data-aos-duration='1000' className="box">
                             <p className="box-text">Certificate</p>
                         </div>
                         </div>
                         <div className="col-md-3 col-sm-6">
-                        <div className="box">
+                        <div data-aos="fade-up" data-aos-duration='1000' data-aos-delay="100" className="box">
                             <p className="box-text">Foundational <br /> Understanding</p>
                         </div>
                         </div>
                         <div className="col-md-3 col-sm-6">
-                        <div className="box">
+                        <div data-aos="fade-up" data-aos-duration='1000' data-aos-delay="200" className="box">
                             <p className="box-text">Tool Proficiency </p>
                         </div>
                         </div>
                         <div className="col-md-3 col-sm-6">
-                        <div className="box">
+                        <div data-aos="fade-up" data-aos-duration='1000' data-aos-delay="300" className="box">
                             <p className="box-text">Advanced <br /> Tecniques Mastery </p>
                         </div>
                         </div>
@@ -76,7 +76,7 @@ const CoursePage = () => {
                 </Row>
                 <Row>
                     <div>
-                        <div className="mb-2 py-5">
+                        <div data-aos="fade-up" data-aos-duration='1000' className="mb-2 py-5">
                             <Button style={{background : 'transparent', border : 'none'}} variant="primary" size="lg">
                             <a href="#desc">Description Class</a>
                             </Button>{' '}
@@ -87,7 +87,7 @@ const CoursePage = () => {
 
                         <div id='#desc'>
                             <h4 style={{color: '#EDDC41'}}> Description </h4>
-                            <div>
+                            <div data-aos="fade-up" data-aos-duration='1000' data-aos-delay="300">
                                 {courseDesc.map((courseDesc) => {
                                     return(
                                         <div key={courseDesc.id} className='text-white' style={{fontSize: '20px', textAlign: 'justify'}}>

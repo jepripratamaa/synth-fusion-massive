@@ -5,6 +5,9 @@ import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/main.css'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import { BrowserRouter} from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,3 +17,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode>,
 )
+
+AOS.init();

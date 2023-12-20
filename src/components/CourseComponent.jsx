@@ -6,7 +6,7 @@ import { course } from '../data/index'
 const CourseComponent = () => {
   return (
     <div>
-        <div className="row position-relative py-5">
+        <div data-aos="fade-up" className="row position-relative py-5">
             <div className="col d-flex flex-wrap justify-content-center">
                 <div className="card-fitur">
                     <img src={CourseSF} alt="" />
